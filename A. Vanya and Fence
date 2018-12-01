@@ -1,0 +1,11 @@
+z=[input()]
+z=z[0].split()
+result=0
+y=[input()]
+y=y[0].split()
+for i in range(0,len(y)):
+        if int(y[i])>int(z[-1]):
+            result+=2
+        else:
+            result+=1
+print(result)
